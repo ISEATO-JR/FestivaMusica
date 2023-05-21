@@ -18,6 +18,13 @@ npm init
 ```bash
 npm install sass
 ```
+### Paso No.3: Instalar la dependencias del package-json 
+
+```bash
+npm install
+```
+
+el archivo de package-json tiene las configuraciones necesarias para descargars los paquetes necesarios para compilar y poder probar el proyecto 
 
 
 
