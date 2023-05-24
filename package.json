@@ -4,7 +4,9 @@
   "description": "Festiva de Musica con SASS y GULP HTMl",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css" 
+    "sass": "sass --watch src/scss:build/css",
+    "tareaRun": "gulp tarea",
+    "devrun": "gulp css"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,8 @@
   },
   "homepage": "https://github.com/ISEATO-JR/FestivaMusica#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "sass": "^1.62.1"
   }
 }
